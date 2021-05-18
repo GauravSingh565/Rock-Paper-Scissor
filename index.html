@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock-Paper-Scissor</title>
+  </head>
+  <body>
+    <section class="background">
+      <div class="container">
+        <div class="score">
+          <div id="player">
+            <h1>Player</h1>
+            <p id="playerScore">0</p>
+          </div>
+          <button type="button" class="btn" id="reStart">Restart</button>
+          <div id="computer">
+            <h1>Computer</h1>
+            <p id="computerScore">0</p>
+          </div>
+        </div>
+        <div class="move">
+          <h1 id="win"></h1>
+          <h1>Make your move</h1>
+          <div class="icons">
+            <div id="rockMove">
+              <div id="rock"></div>
+              <button type="button" class="btn">rock</button>
+            </div>
+            <div id="paperMove">
+              <div id="paper"></div>
+              <button type="button" class="btn">paper</button>
+            </div>
+            <div id="scissorMove">
+              <div id="scissor"></div>
+              <button type="button" class="btn">scissors</button>
+            </div>
+          </div>
+        </div>
+        <div class="game">
+          <div id="playerMove">
+            <div class="gameMove">
+              <img src="./assets/rock.png" id="yourMove" alt="" />
+            </div>
+            <h1>Your Move</h1>
+          </div>
+          <div id="computer">
+            <div class="gameMove">
+              <img src="./assets/rock.png" id="computerMove" alt="" />
+            </div>
+            <h1>Computer's Move</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
